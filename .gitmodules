@@ -1,3 +1,15 @@
 [submodule "betaflight"]
 	path = betaflight
 	url = git@github.com:RoarFPV/betaflight.git
+[submodule "betaflight-configurator"]
+	path = betaflight-configurator
+	url = git@github.com:RoarFPV/betaflight-configurator.git
+[submodule "betaflight-tx-lua-scripts"]
+	path = betaflight-tx-lua-scripts
+	url = git@github.com:RoarFPV/betaflight-tx-lua-scripts.git
+[submodule "unified-targets"]
+	path = unified-targets
+	url = git@github.com:RoarFPV/unified-targets.git
+[submodule "blackbox-log-viewer"]
+	path = blackbox-log-viewer
+	url = git@github.com:RoarFPV/blackbox-log-viewer.git

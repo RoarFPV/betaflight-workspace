@@ -1,0 +1,37 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "BF STM32F7X2 Debug",
+            "cwd": "${workspaceRoot}",
+            "executable": "${workspaceFolder}/betaflight/obj/main/betaflight_STM32F7X2.elf",
+            "request": "launch",
+            "type": "cortex-debug",
+            "servertype": "openocd",
+            // This may need to be arm-none-eabi-gdb depending on your system
+            "gdbPath": "gdb-multiarch",
+            // "device": "RP2040",
+            "configFiles": [
+            //   "target/rp2040.cfg"
+                "stm32/stm32f7x2.cfg"
+            ],
+            "showDevDebugOutput": "both",
+            // "serverArgs": ["-d"],
+            // "svdFile": "/home/john/code/pico/pico-sdk/src/rp2040/hardware_regs/rp2040.svd",
+            // "runToMain": true,
+            // Work around for stopping at main on restart
+            "preLaunchTask": "Build Debug STM32F7X2 Firmware",
+        
+            // "postLaunchCommands": [
+            //     "break main"
+            // ],
+            // "postRestartCommands": [
+            //   "break main",
+            //   "continue"
+            // ]
+          },
+    ]
+}

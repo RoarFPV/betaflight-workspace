@@ -9,5 +9,5 @@
 * dshot bitbang dma layout single 32 bit uint for each timing phase of dshot signal `H, (1=H,0=L), L` where middle indicates the bit value
     * upper 16 bits is non-inverted gpio pins
     * lower 16 bits is inverted gpio pins
-* Added cliDebug logging to dump [dshot dma output port buffer](/home/john/code/drone/betaflight-workspace/work/issues/11424/dshot-port-out-buffer-dump.md)
+* Added cliDebug logging to dump [dshot dma output port buffer](dshot-port-out-buffer-dump.md)
      

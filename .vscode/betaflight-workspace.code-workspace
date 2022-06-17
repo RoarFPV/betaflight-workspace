@@ -4,5 +4,11 @@
 			"path": ".."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"cortex-debug.variableUseNaturalFormat": false,
+		"files.associations": {
+			"cli_debug_print.h": "c",
+			"cli.h": "c"
+		}
+	}
 }

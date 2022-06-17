@@ -13,3 +13,6 @@
 [submodule "blackbox-log-viewer"]
 	path = blackbox-log-viewer
 	url = git@github.com:RoarFPV/blackbox-log-viewer.git
+[submodule "stm32/stm32-svd"]
+	path = stm32/stm32-svd
+	url = git@github.com:svcguy/stm32-svd.git

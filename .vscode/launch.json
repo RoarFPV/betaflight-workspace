@@ -16,11 +16,11 @@
             // "device": "RP2040",
             "configFiles": [
             //   "target/rp2040.cfg"
-                "stm32/stm32f7x2.cfg"
+                "stm32/openocd/stm32f7x2.cfg"
             ],
             "showDevDebugOutput": "both",
             // "serverArgs": ["-d"],
-            // "svdFile": "/home/john/code/pico/pico-sdk/src/rp2040/hardware_regs/rp2040.svd",
+            "svdFile": "stm32/stm32-svd/f7/STM32F722.svd",
             // "runToMain": true,
             // Work around for stopping at main on restart
             "preLaunchTask": "Build Debug STM32F7X2 Firmware",

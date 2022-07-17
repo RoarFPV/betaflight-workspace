@@ -16,3 +16,6 @@
 [submodule "stm32/stm32-svd"]
 	path = stm32/stm32-svd
 	url = git@github.com:svcguy/stm32-svd.git
+[submodule "hdzero/hdzero-vtx"]
+	path = hdzero/hdzero-vtx
+	url = git@github.com:RoarFPV/hdzero-vtx.git

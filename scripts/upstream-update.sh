@@ -18,5 +18,6 @@ updateUpstream "betaflight-configurator" "git@github.com:betaflight/betaflight-c
 updateUpstream "blackbox-log-viewer" "git@github.com:betaflight/blackbox-log-viewer.git" "master"
 updateUpstream "betaflight-tx-lua-scripts" "git@github.com:betaflight/betaflight-tx-lua-scripts.git" "master"
 updateUpstream "hdzero/hdzero-vtx" "git@github.com:hd-zero/hdzero-vtx.git" "main"
+updateUpstream "hdzero/hdzero-flasher" "git@github.com:bkleiner/hdzero-flasher.git" "master"
 
 git status

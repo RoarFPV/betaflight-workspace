@@ -19,3 +19,6 @@
 [submodule "hdzero/hdzero-vtx"]
 	path = hdzero/hdzero-vtx
 	url = git@github.com:RoarFPV/hdzero-vtx.git
+[submodule "hdzero/hdzero-flasher"]
+	path = hdzero/hdzero-flasher
+	url = git@github.com:RoarFPV/hdzero-flasher.git

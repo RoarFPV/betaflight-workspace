@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -e
 
 # Script to update "upstream" remotes of submodule branches forked on github
 

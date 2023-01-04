@@ -22,3 +22,6 @@
 [submodule "hdzero/hdzero-flasher"]
 	path = hdzero/hdzero-flasher
 	url = git@github.com:RoarFPV/hdzero-flasher.git
+[submodule "hdzero/hdzero-goggle"]
+	path = hdzero/hdzero-goggle
+	url = git@github.com:RoarFPV/hdzero-goggle.git
